@@ -1,9 +1,10 @@
 import productData from './data/full-products';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello There.</h1>
+      <Header />
     </div>
   );
 }
